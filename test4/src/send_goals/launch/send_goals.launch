@@ -1,0 +1,3 @@
+<launch>
+        <node name="send_goals_node" pkg="send_goals" type="giveWaypoints" output="screen"/>
+</launch>

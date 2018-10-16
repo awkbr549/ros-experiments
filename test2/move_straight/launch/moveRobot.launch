@@ -1,0 +1,10 @@
+<launch>
+	<param name="goal_x" value="19.0" />
+	<param name="goal_y" value="28.5" />
+	<param name="goal_theta" value="0" />
+
+	<param name="/use_sim_time" value="true" />
+
+	<node name="move_straight_node" pkg="move_straight" type="MoveStraightLine" output="screen">
+	</node>
+</launch>

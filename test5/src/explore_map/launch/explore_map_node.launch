@@ -1,0 +1,3 @@
+<launch>
+        <node name="explore_node" pkg="explore_map" type="ExploreMap" output="screen"/>
+</launch>

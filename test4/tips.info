@@ -1,0 +1,2 @@
+kill -9 $(pgrep ros) $(pgrep move_base) $(pgrep amcl) $(pgrep map)
+

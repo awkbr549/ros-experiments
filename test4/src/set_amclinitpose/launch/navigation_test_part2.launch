@@ -1,0 +1,3 @@
+<launch>
+        <node name="set_amclinitpose_node" pkg="set_amclinitpose" type="SetInitPoseAMCL"/>
+</launch>

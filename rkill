@@ -1,0 +1,4 @@
+#! /bin/bash
+kill $(pgrep roscore)
+sleep 3
+clear

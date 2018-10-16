@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+	<name>set_amclinitpose</name>
+	<version>1.2.4</version>
+	<description>
+		This package attempts to answer Homework 2, Part II, Questions, a).
+	</description>
+	<maintainer email="adamking.br549@gmail.com">Adam King</maintainer>
+	<license>GPLv3</license>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<build_depend>roscpp</build_depend>
+	<build_depend>std_msgs</build_depend>
+<!--	<build_depend>stage_ros</build_depend> -->
+<!--	<build_depend>rviz</build_depend> -->
+<!-- 	<build_depend>amcl</build_depend> -->
+<!-- 	<build_depend>navigation_stage</build_depend> -->
+	
+	<run_depend>roscpp</run_depend>
+	<run_depend>std_msgs</run_depend>
+<!--	<run_depend>stage_ros</run_depend> -->
+<!-- 	<run_depend>rviz</run_depend> -->
+<!-- 	<run_depend>amcl</run_depend> -->
+<!-- 	<run_depend>navigation_stage</run_depend> -->
+
+</package>
